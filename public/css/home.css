@@ -1,0 +1,124 @@
+body {
+
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/688/849/original/smartphone-with-delivery-worker-in-motorcycle-vector.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    backdrop-filter: blur(10px);
+  }
+
+  h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  
+  #login-message {
+      font-size: 22px;
+      font-weight: bold;
+      color: #705707;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      text-align: center;
+  }
+
+  h2 {
+      color: #705707;
+      text-align: center;
+  }
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    animation: fadeIn 1s ease-out;
+  }
+
+  button:hover {
+    background: rgb(209, 217, 82);
+    background: linear-gradient(56deg, rgba(209, 217, 82, 1) 0%, rgba(179, 39, 0, 1) 100%);
+    color: #fff;
+  }
+
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  header {
+    width: 80%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: transparent;
+  }
+
+  header img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  header h1 {
+    margin: 0;
+    color: #705707;
+
+  }
+
+  a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+
+  a:visited {
+    color: #FFFFFF;
+  }
+
+  a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
